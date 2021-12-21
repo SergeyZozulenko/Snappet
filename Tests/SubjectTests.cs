@@ -25,7 +25,7 @@ namespace Snappet.Tests
         public void ExtentStart()
         {
             extent = new ExtentReports();
-            var htmlReporter = new ExtentHtmlReporter(@"C:\Users\sergz\OneDrive\Desktop\Snappet\Snappet\Report\index2.html");
+            var htmlReporter = new ExtentHtmlReporter(@"..\Snappet\Snappet\Report\index2.html");
             extent.AttachReporter(htmlReporter);
         }
 
